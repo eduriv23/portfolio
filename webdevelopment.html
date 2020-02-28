@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+  <html>
+
+    <head>
+      <meta charset="utf-8">
+      <title>Eduardo Rivas</title>
+
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="icon" href="favicon.ico">
+
+
+
+
+      <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+    </head>
+
+
+
+  <body>
+
+      <!-----Nav---------->
+      <div class="nav-container">
+          <a href="index.html">Home</a>
+          <a href="webdevelopment.html">Web Development</a>
+          <a href="illustrations.html">Illustration</a>
+
+
+        </div>
+
+      <!-----content division element------>
+
+      <div class="topContainer">
+
+        <h1>Web Development Projects</h1> <!-- block element and takes up the whole width of the screen
+                                blocking out any other elements from sitting next to it-->
+
+        <h2>at South Mountain Community College.</h2> <!-- block element and takes up the whole width of the screen
+                                                      blocking out any other elements from sitting next to it.
+                                                    The SPAN inline element allows us to select on part of the text to format it differently-->
+
+
+
+      </div>
+
+
+    <div class="middle-container">
+      <div class="profile">
+        <a href="https://app.moqups.com/tsw2iog21M/view/page/ab7573108" target="_blank"><img class="resize" src="images/moqup.jpg" alt=""></a>
+        <a href="https://eduriv23.github.io/teamalphamale/" target="_blank"><img class="resize" src="images/teamAlphaMale.jpg" alt=""></a>
+
+        <h2>Recreating the Team Alpha Male home page</h2>
+
+          <p class="projectInfo">The objective of this project was
+              to recreate the framework of an already existing websites home page. I chose to work with the Team Alpha Male webpage for this assignment. To the left
+              you'll see a thumbnail of the mockup I created, which is basically the websites
+              blueprint. If you click on it you will be able to further disect the layout and
+              placement of elements. This phase in the design process determines where all the content and
+              information is going to be presented.</p>
+
+              <br>
+
+              <p class="projectInfo">If you click on the thumbnail to the right you will be able to view the fully coded home page.
+                Utilizing the mockup I created on moqups.com, I was able to code the layout of the page using
+                HTML and CSS. Once I had all the frames in place, I was then able to apply all the content and images where they
+                belonged in order to have the complete design of the page. For the purpose of this assignment we were
+                adviced to have the page be 955 pixels in width and centered.
+
+              </p>
+
+
+      </div>
+
+      <hr>
+
+    <div class="skills">
+        <h2>HTML & CSS Exercises</h2>
+        <div class="skill-row">
+          <a href="https://eduriv23.github.io/mma/" target="_blank"><img class="code-img" style="height: 50%; width: 50%;" src="images/semanticElements.jpg" alt=""></a>
+          <h3>HTML Elements</h3>
+          <p>The purpose of this exercise was to gain familiarity with the use semantic elements.
+          These types of elements are similar to divs but actually give meaning to different sections
+        of the website code. With the use of semantic elements our code will be presented in a much more
+      organized manner. Some of the elements utilized in this webpage were header, section, article, footer, nav, and aside.</p>
+        </div>
+
+    <div class="skill-row">
+          <a href="https://eduriv23.github.io/float/" target="_blank"><img class="comp-image" style="height: 50%; width: 50%;" src="images/floatTrees.jpg" alt=""></a>
+          <h3>Styling with Float</h3>
+          <p>This assignments objective was to learn how to style images using float within our CSS.
+          With the use of float we can have our websites images float to the left or to the right and have text flow around them as shown on this example.</p>
+        </div>
+      </div>
+
+      <hr>
+
+    <div class="contact-me">
+        <h2>Have a project in mind?</h2>
+        <h3>Get in touch!</h3>
+        <a class="butn" href="contact.html">CONTACT ME</a>
+      </div>
+    </div>
+
+
+  <div class="bottom-container">
+      <a class="footer-link" href="index.html">Home</a>
+      <a class="footer-link" href="webdevelopment.html">Web Development</a>
+      <a class="footer-link" href="illustrations.html">Illustration</a>
+      <p class="copyright">© 2019 Eduardo Rivas.</p>
+    </div>
+
+
+
+  </body>
+
+      <!--NOTES
+          Common block elements
+          - <p></p>
+          - <h1></h1> through <h6></h6>
+          - <div></div>
+          - <ol></ol> <ul></ul> <li></li>
+          - <form></form>
+
+          Common inline elements
+          - <span></span>
+          - <img></img>
+          - <a> (anchors)
+
+          ********************** Display Properties: ***********************
+          - display: inline;
+          (changes the elements block display to inline and allows other elements to beside it on same line
+          but you will not be able to change its width anymore)
+
+          - display: block;
+          (changes the elements inline display to block and wont allow other elements to sit beside it but
+          you will be able to change the width property)
+
+          -display: inline-block;
+          (will give you the best of both worlds... the element will then be displayed on the same line as other
+          elements but you will be able to still manipulate the width property)
+
+          -display: none;
+          (simply gets rid of the element from the website as if it did not exist within the page)
+
+          -vissibility: hidden;
+          (makes element dissappear but it keeps its original position and all the other elements still flow around it)
+
+          ********** Image elements can sort of be considered "inline-block" because they can sit in the
+          same line and you can manipulate the width ***********
+
+
+          *********************** POSITION PROPERTIES *********************
+          - position: static;
+          (all html elements are static in their position by default.. by applying static you are
+          positioning the element to the flow of the default html flow and rules)
+
+          - position: relative;
+          (when you move an element that has a relative position (example: relatively pushing down an
+          element 50px from the top) it does not affect the position of anything else on screen as if the
+          old position was kept and everythng else just flows around it as if it was never moved. Its almost
+          as if the elemnt left the ghost of itself where it use to be in order for all the other elements
+          to keep their own positions. It can be compared to a margin. We are taking the top from where the elemnt use
+          to be and giving it a 50 pixel margin from the top of the current element) ****relative positioning only
+          works when you also apply a coordinate of LEFT, RIGHT, TOP, or BOTTOM**********
+
+          - position: absolute;
+          (with absolute positioning we are positioning the element relative to its parent. Ex. if img is positioned
+          right: 30px; within a div container then the img element within the div will be positioned to the right of the parent element (the div)
+          with a 30px margin on the right side.) ******** with absolute positioning it does affect the flow of the html.. you take the element
+          out of the flow of the document and is no longer considered part of the natural flow of the document***********
+
+          - position: fixed;
+          (the element stays fixed in its position when you scroll through the web page. You can have a fixed nav bar
+          so that the when the user scrolls down the nav bar will still be visible for the user.)
+
+
+
+      -->
+
+</html>

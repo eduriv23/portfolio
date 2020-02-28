@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+  <html>
+
+    <head>
+      <meta charset="utf-8">
+      <title>Eduardo Rivas</title>
+
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="icon" href="favicon.ico">
+
+
+
+
+      <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+    </head>
+
+
+
+  <body>
+
+      <!-----Nav---------->
+      <div class="nav-container">
+          <a href="index.html">Home</a>
+          <a href="webdevelopment.html">Web Development</a>
+          <a href="illustrations.html">Illustration</a>
+
+
+        </div>
+
+      <!-----content division element------>
+
+      <div class="topContainer">
+
+        <h1>Illustration</h1> <!-- block element and takes up the whole width of the screen
+                                blocking out any other elements from sitting next to it-->
+
+
+
+
+
+      </div>
+
+
+    <div class="middle-container">
+      <div class="profile">
+
+        <h2>Technical Tracing</h2>
+        <img class="resize" src="images/guitarPhoto.jpg" alt="">
+
+        <img class="resize" src="images/guitarTracing.jpg" alt="">
+        <br>
+        <img class="resize" src="images/guitarRendering.jpg" alt="">
+
+
+          <p class="projectInfo">Above is a technical tracing of an electric guitar using Adobe Illustrator. Utilizing the pen tool I traced over
+          the image of the electric guitar. Every component of the guitar was organized within their respective layer. Once the tracing was complete
+        I fully rendered the guitar tracing utilizing the gradient tool, therefore giving the final illustration a 3D effect.</p>
+      </div>
+
+      <br>
+
+
+      <hr>
+
+    <div class="contact-me">
+        <h2>Have a project in mind?</h2>
+        <h3>Get in touch!</h3>
+        <a class="butn" href="contact.html">CONTACT ME</a>
+      </div>
+    </div>
+
+
+  <div class="bottom-container">
+      <a class="footer-link" href="index.html">Home</a>
+      <a class="footer-link" href="webdevelopment.html">Web Development</a>
+      <a class="footer-link" href="illustrations.html">Illustration</a>
+      <p class="copyright">© 2019 Eduardo Rivas.</p>
+    </div>
+
+
+
+  </body>
+
+      <!--NOTES
+          Common block elements
+          - <p></p>
+          - <h1></h1> through <h6></h6>
+          - <div></div>
+          - <ol></ol> <ul></ul> <li></li>
+          - <form></form>
+
+          Common inline elements
+          - <span></span>
+          - <img></img>
+          - <a> (anchors)
+
+          ********************** Display Properties: ***********************
+          - display: inline;
+          (changes the elements block display to inline and allows other elements to beside it on same line
+          but you will not be able to change its width anymore)
+
+          - display: block;
+          (changes the elements inline display to block and wont allow other elements to sit beside it but
+          you will be able to change the width property)
+
+          -display: inline-block;
+          (will give you the best of both worlds... the element will then be displayed on the same line as other
+          elements but you will be able to still manipulate the width property)
+
+          -display: none;
+          (simply gets rid of the element from the website as if it did not exist within the page)
+
+          -vissibility: hidden;
+          (makes element dissappear but it keeps its original position and all the other elements still flow around it)
+
+          ********** Image elements can sort of be considered "inline-block" because they can sit in the
+          same line and you can manipulate the width ***********
+
+
+          *********************** POSITION PROPERTIES *********************
+          - position: static;
+          (all html elements are static in their position by default.. by applying static you are
+          positioning the element to the flow of the default html flow and rules)
+
+          - position: relative;
+          (when you move an element that has a relative position (example: relatively pushing down an
+          element 50px from the top) it does not affect the position of anything else on screen as if the
+          old position was kept and everythng else just flows around it as if it was never moved. Its almost
+          as if the elemnt left the ghost of itself where it use to be in order for all the other elements
+          to keep their own positions. It can be compared to a margin. We are taking the top from where the elemnt use
+          to be and giving it a 50 pixel margin from the top of the current element) ****relative positioning only
+          works when you also apply a coordinate of LEFT, RIGHT, TOP, or BOTTOM**********
+
+          - position: absolute;
+          (with absolute positioning we are positioning the element relative to its parent. Ex. if img is positioned
+          right: 30px; within a div container then the img element within the div will be positioned to the right of the parent element (the div)
+          with a 30px margin on the right side.) ******** with absolute positioning it does affect the flow of the html.. you take the element
+          out of the flow of the document and is no longer considered part of the natural flow of the document***********
+
+          - position: fixed;
+          (the element stays fixed in its position when you scroll through the web page. You can have a fixed nav bar
+          so that the when the user scrolls down the nav bar will still be visible for the user.)
+
+
+
+      -->
+
+</html>
